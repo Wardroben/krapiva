@@ -1,0 +1,161 @@
+body {
+    background-color:rgb(250, 234, 214);
+}
+
+section.article p {
+    margin-top: 1.5rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.main-content {
+    background-color: white;
+    padding: 30px 100px;
+}
+
+th {
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.krapiva-table td > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.image-td {
+    text-align: center;
+    width: 40%;
+}
+
+.justify-table-text {
+    text-align: justify;
+    width: 100%;
+}
+
+table caption {
+    padding: 8px;
+    font-weight: bold;
+}
+
+.krapiva-table {
+    max-width: 100%;
+    border-collapse: collapse;
+    border: 2px solid gray;
+    margin: 0 auto;
+}
+
+.centered-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.shouting {
+   background-color: gold; 
+   border: 2px solid black;
+   padding: 4px;
+}
+
+.shout-container {
+   display: grid;
+   place-items: center;
+}
+
+.site-header {
+    display: grid;
+    place-items: center;
+    width: max-content;
+    margin: 0 auto;
+}
+
+header h1 {
+    background-color: green;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+img { 
+    max-height: 200px;
+    min-height: 150px;
+    max-width: 300px;
+}
+
+p {
+    padding-top: 8px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+p img {
+    float: inline-end;
+    margin: 0 20px;
+}
+
+footer {
+    padding: 30px;
+    margin: auto;
+}
+
+.header-nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+nav a:last-of-type {
+    margin-right: 0;
+}
+
+nav a {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:pink;
+}
+
+.article-date {
+    font-style: italic;
+}
+
+details p {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+}
+
+.krapiva-faq {
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 769px) {
+    .main-content {
+        padding: 30px 30px;
+    }
+}
+
+@media (max-width: 512px) {
+    .main-content {
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 340px) {
+    .main-content {
+        padding: 10px;
+    }
+}
