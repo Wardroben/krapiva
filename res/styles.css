@@ -8,6 +8,7 @@ body {
 }
 
 .site-header-text {
+    display: block;
     place-items: center;
     text-align: center;
     width: fit-content;
@@ -51,32 +52,32 @@ section.article p {
 }
 
 .shouting {
-    background-color: gold; 
-    border: 2px solid black;
-    padding: 4px;
- }
- 
- .shout-container {
-    display: grid;
-    place-items: center;
- }
- 
- img { 
-     max-height: 200px;
-     min-height: 150px;
-     max-width: 300px;
- }
- 
- p {
-     padding-top: 8px;
-     letter-spacing: 0.5px;
-     text-align: justify;
- }
- 
- p img {
-     float: inline-end;
-     margin: 0 20px;
- }
+background-color: gold; 
+border: 2px solid black;
+padding: 4px;
+}
+
+.shout-container {
+display: grid;
+place-items: center;
+}
+
+img { 
+    max-height: 200px;
+    min-height: 150px;
+    max-width: 300px;
+}
+
+p {
+    padding-top: 8px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+p img {
+    float: inline-end;
+    margin: 0 20px;
+}
 
 table caption {
     padding: 8px;
