@@ -70,9 +70,8 @@ table caption {
 }
 
 .site-header {
-    display: grid;
     place-items: center;
-    width: max-content;
+    width: fit-content;
     margin: 0 auto;
 }
 
@@ -110,7 +109,6 @@ footer {
     flex-direction: row;
     margin: auto;
     justify-content: center;
-    margin-bottom: 10px;
 }
 
 nav a:last-of-type {
